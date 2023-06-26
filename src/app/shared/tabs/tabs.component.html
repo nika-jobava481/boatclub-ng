@@ -1,0 +1,5 @@
+<div class="tabs">
+    <ng-container *ngFor="let tab of tabsArray">
+        <app-tab [tab]="tab" (changeEvent)="handleChange($event)"></app-tab>
+    </ng-container>
+</div>

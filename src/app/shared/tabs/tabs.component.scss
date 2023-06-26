@@ -1,0 +1,9 @@
+.tabs{
+    display: flex;
+    align-items: center;
+    app-tab{
+        border: 1px solid black;
+        width: 100%;
+        cursor: pointer;
+    }
+}

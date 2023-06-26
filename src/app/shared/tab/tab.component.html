@@ -1,0 +1,6 @@
+<div class="cont" (click)="change()">
+    <p>{{tab.name}}</p>
+    <ng-container *ngIf="!tab.active">
+        <div class="over"></div>
+    </ng-container>
+</div>

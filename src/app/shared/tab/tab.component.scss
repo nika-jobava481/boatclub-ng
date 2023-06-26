@@ -1,0 +1,18 @@
+.cont {
+    position: relative;
+    p {
+        text-align: center;
+        margin: 0;
+        padding: 15px 0;
+    }
+
+    .over {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        z-index: 10;
+        background: rgba($color: gray, $alpha: 0.6);
+    }
+}
